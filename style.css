@@ -15,7 +15,7 @@ body{
      height: 100vh;
      width: 100%;
      background: #000;
-     /* background-image: url('assets/img/img1.png'); */
+     background-image: url('assets/img/img1.jpg');
      background-size: cover;  
      background-position: center;
      background-repeat: no-repeat;
@@ -34,6 +34,8 @@ body{
 }
 
 .nav{
+     position: relative;
+     z-index: 1;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -51,7 +53,23 @@ body{
      color: white;
 }
 
+.list li:hover{
+     color: #f1f1f17e;
+     cursor: pointer;
+}
+
+.search i{
+     font-size: 1.2rem;
+}
+
+.search i:hover{
+     color: #f1f1f17e;
+     cursor: pointer;
+}
+
 .info-box{
+     position: relative;
+     z-index: 1;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -101,32 +119,52 @@ body{
      cursor: pointer;
 }
 
+.circle:hover{
+     background-color: #fff;
+     color: #000;
+}
+
 .cards-box{
      display: flex;
      justify-content: center;
-     gap: 10px;
+     align-items: center;
+     gap: 20px;
 }
 
 .card{
      position: relative;
      height: 320px;
      width: 220px;
-     border-radius: 20px;
+     border-radius: 10px;
      overflow: hidden;
+     transition: .5s;
 }
 
+.card:hover{
+     scale: 1.2;
+     margin: 0 30px;
+}
 .card p{
      position: absolute;
-     bottom: 0;
+     bottom: 10px;
      left: 50%;
      transform: translateX(-50%);
+     filter: brightness(.5);
 }
+
+.card:hover p{
+     filter: brightness(1);
+}
+
 
 .card img{
      height: 100%;
      object-fit: cover;
      width: 100%;
      object-position: center;
+     filter: brightness(.5);
 }
 
-
+.card img:hover{
+     filter: brightness(1);
+}
