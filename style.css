@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+body{
+     height: 100%;
+     width: 100%;
+     color: white;
+}
+.main{
+     height: 100vh;
+     width: 100%;
+     background: #000;
+     background-image: url('assets/img/img1.jpg');
+     background-size: cover;  
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+     overflow: hidden;
+}
+
+.main::before{
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav{
+     position: relative;
+     z-index: 1;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 3rem;
+}
+
+.list{
+     display: flex;
+     align-items: center;
+}
+
+.list li{
+     list-style: none;
+     padding: 0 1rem;
+     color: white;
+}
+
+.list li:hover{
+     color: #f1f1f17e;
+     cursor: pointer;
+}
+
+.search i{
+     font-size: 1.2rem;
+}
+
+.search i:hover{
+     color: #f1f1f17e;
+     cursor: pointer;
+}
+
+.info-box{
+     position: relative;
+     z-index: 1;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 3rem;
+}
+
+.text-box{
+     width: 40%;
+}
+
+.text-box h3{
+     letter-spacing: 9px;
+     text-transform: uppercase;
+     margin-bottom: 1rem;
+}
+
+.text-box h1{
+     font-size: 7.5rem;
+     font-weight: 700;
+     margin-bottom: 1.5rem;
+}
+
+.text-box p{
+     font-size: 1,4rem;
+     font-weight: 500;
+     margin-bottom: 1.5rem;
+}
+
+.arrow-icon{
+     display: flex;
+     gap:50px;
+}
+
+.arrow-icon i{
+     font-size: 2rem;
+     cursor: pointer;
+}
+
+.circle{
+     height: 50px;
+     width: 50px;
+     border: 2px solid #fff;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+
+.circle:hover{
+     background-color: #fff;
+     color: #000;
+}
+
+.cards-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+}
+
+.card{
+     position: relative;
+     height: 320px;
+     width: 220px;
+     border-radius: 10px;
+     overflow: hidden;
+     transition: .5s;
+}
+
+.card:hover{
+     scale: 1.2;
+     margin: 0 30px;
+}
+.card p{
+     position: absolute;
+     bottom: 10px;
+     left: 50%;
+     transform: translateX(-50%);
+     filter: brightness(.5);
+}
+
+.card:hover p{
+     filter: brightness(1);
+}
+
+
+.card img{
+     height: 100%;
+     object-fit: cover;
+     width: 100%;
+     object-position: center;
+     filter: brightness(.5);
+}
+
+.card img:hover{
+     filter: brightness(1);
+}
