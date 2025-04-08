@@ -17,8 +17,10 @@ This project is a **beautiful, interactive slider** featuring dynamic transition
 ## Installation & Setup
 1. Clone the repository:
 
-
-git clone : https://github.com/cn-gourav/YT-silderAnimation.git
+* git clone :
+```javascript
+ https://github.com/cn-gourav/YT-silderAnimation.git
+```
 
 2. Open the project folder in your code editor.
 3. Ensure you have all assets and dependencies.
@@ -35,7 +37,7 @@ git clone : https://github.com/cn-gourav/YT-silderAnimation.git
 - Enhancing **mobile responsiveness** to optimize the layout.
 
 ## Credits
-Developed by **[Your Name]**.
+Developed by Gorav Gusain.
 Feel free to contribute and improve this project!
 
 ## License
