@@ -37,7 +37,7 @@ This project is a **beautiful, interactive slider** featuring dynamic transition
 - Enhancing **mobile responsiveness** to optimize the layout.
 
 ## Credits
-Developed by Gorav Gusain.
+Developed by Gourav Gusain.
 Feel free to contribute and improve this project!
 
 ## License
