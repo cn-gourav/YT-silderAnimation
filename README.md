@@ -43,15 +43,6 @@ Open `index.html` in a browser to view the slider.
 - Implementing **custom animations** for a smoother transition.
 - Enhancing **mobile responsiveness** to optimize the layout.
 
-## Credits
-<<<<<<< HEAD
-
-Developed by Gorav Gusain.
-=======
-Developed by Gourav Gusain.
->>>>>>> e6debec8206156597e8d432454c434b1cbd46d9e
-Feel free to contribute and improve this project!
-
 ## License
 
 This project is open-source under the MIT License.
