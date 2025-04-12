@@ -17,6 +17,7 @@ This project is a **beautiful, interactive slider** featuring dynamic transition
 - **Hover Effects**: Hovering over cards changes the background.
 - **Smooth Transitions**: The animations make the slider feel interactive and engaging.
 
+....
 ## Installation & Setup
 
 1. Clone the repository:
